@@ -14,13 +14,13 @@ This repository is an introduction to starting the advanced programming path usi
 ### 1. Prerequisites
 
 - Make sure you have Node.js installed. Check with:
-
+```bash
   node -v
-
+```
 - Install the NestJS CLI globally:
-
+```bash
   npm i -g @nestjs/cli
-
+```
 ### 2. Create a new NestJS project
 
 nest new nestjs-riwi
@@ -30,9 +30,10 @@ nest new nestjs-riwi
 
 ### 3. Run the application
 
+```bash
 cd nestjs-riwi
 npm run start
-
+```
 - Open your browser and go to: http://localhost:3000
 - You should see: Hello RIWI world
 
