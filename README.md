@@ -23,8 +23,9 @@ This repository is an introduction to starting the advanced programming path.
 Open a terminal in the folder containing your HelloWorld.js file.
 
 Execute:
-
+ ```bash
 node HelloWorld.js
+ ```
 
 🚀 Editor used
 
