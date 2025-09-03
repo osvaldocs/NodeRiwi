@@ -1,34 +1,50 @@
-# NodeRiwi
+nestjs-riwi
 
-This repository is an introduction to starting the advanced programming path.
+This repository is an introduction to starting the advanced programming path using NestJS.
 
-## ✅ Task
+✅ Task
 
-1. Create a file that prints `Hello World!` using Node.js.
-2. Install your preferred code editor or IDE.
-   - In my case, I used **Visual Studio Code (VS Code)**.
+1. Create a simple NestJS project that returns `Hello RIWI world`.
+2. Use Visual Studio Code (VS Code) as the editor.
 
 ---
 
-## 🧪 How to run the Node.js file
+🚀 How to create and run the NestJS project
 
-### 1. Make sure Node.js is installed
-- You can check by running:
+1. Prerequisites
 
-  ```bash
+- Make sure you have Node.js installed. Check with:
+
   node -v
 
-3. Run the program
+- Install the NestJS CLI globally:
 
-Open a terminal in the folder containing your HelloWorld.js file.
+  npm i -g @nestjs/cli
 
-Execute:
- ```bash
-node HelloWorld.js
- ```
+2. Create a new NestJS project
 
-🚀 Editor used
+  nest new nestjs-riwi
 
-Visual Studio Code
+- Choose npm or yarn when prompted.
 
-Installed on Ubuntu.
+
+3. Run the application
+
+  cd nestjs-riwi
+  npm run start
+
+- Open your browser and go to: http://localhost:3000
+- You should see: Hello RIWI world
+
+---
+
+🧑‍💻 Editor used
+
+- Visual Studio Code (https://code.visualstudio.com/)
+- Installed on Ubuntu.
+
+---
+
+🧑‍💻 Author
+
+- [Your Name Here]
